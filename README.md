@@ -111,6 +111,7 @@ Index.js simply does client side rendering using the data provided from `window.
 
 #### modules
 Modules are the way of organising different domain-specific modules in the project. A typical module contains the following
+
 ```
 | - Post
   | - __tests__ // all the tests for this module goes here
@@ -138,6 +139,8 @@ Modules are the way of organising different domain-specific modules in the proje
           | - PostViewPage.css
   | - PostReducer.js
   | - PostActions.js
+  
+  
 ```
 
 ## Misc
