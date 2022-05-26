@@ -155,15 +155,19 @@ We use babel to transpile code in both server and client with `stage-0` plugin. 
 There are docker configurations for both development and production.
 
 To run docker for development,
+
 ```
 docker-compose -f docker-compose-development.yml build
 docker-compose -f docker-compose-development.yml up
+
 ```
 
 To run docker for production,
+
 ```
 docker-compose build
 docker-compose up
+
 ```
 
 ### Make your MERN
@@ -216,6 +220,8 @@ Also, `target-path` supports [ejs](https://github.com/mde/ejs) and the following
 1. `name` - `<component-name>` input from user
 
 2. `parent` - in particular special cases where you need to generate files inside an already existing folder, you can obtain this parent variable from the user. A config using that will look like,
+
+
     ```
     {
       "name": "dumb-m",
